@@ -8,19 +8,19 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
-gem 'bootstrap-sass', '3.3.6' 
 # Use sqlite3 as the database for Active Record
 gem 'devise'
-
+gem 'bcrypt', '~> 3.1.7'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
-
+gem "sprockets-rails"
+gem "sassc-rails"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
-
+gem 'devise-bootstrap-views', '~> 1.0'
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
-
+gem 'iex-ruby-client'
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
@@ -41,7 +41,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
-
+gem "bootstrap","~>4.4.1"
+gem 'jquery-rails'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
