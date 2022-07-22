@@ -23,7 +23,7 @@ gem "turbo-rails"
 gem 'iex-ruby-client'
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
-
+gem "font-awesome-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
