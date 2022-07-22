@@ -4,10 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   devise_scope :user do
     get '/users/sign_out' => 'devise/sessions#destroy'
-    get 'login', to: "devise/sessions#new", as: "login"
-    get 'logout', to: "devise/sessions#destroy", as: "logout"
-   
-    get '/users/signup', to: "users#new", as: "signup"
+    
   end
   root 'welcome#index'
   get 'my_portfolio', to: 'users#my_portfolio'
